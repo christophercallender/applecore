@@ -1,16 +1,294 @@
 {
-  "posts":[
+  "products": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "MacBook Air",
+      "model": "M1 Chip",
+      "details": "8-Core CPU, 7-Core GPU, 8GB Unified Memory, 256GB SSD Storage, 16-core Neural Engine, 13-inch Retina display with True Tone, Two Thunderbolt / USB 4 ports, Magic Keyboard with Touch ID, Force Touch trackpad, 30W USB-C Power Adapter",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633027804000",
+      "price": "$999",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 2,
+      "title": "MacBook Air",
+      "model": "M2 Chip",
+      "details": "8-Core CPU, 8-Core GPU (up to 10-Core GPU), 8GB Unified Memory, 256GB SSD Storage (up to 512GB SSD Storage), 16-core Neural Engine, 13.6-inch Liquid Retina display with True Tone, 1080p FaceTime HD camera, MagSafe 3 charging port, Two Thunderbolt / USB 4 ports, Magic Keyboard with Touch ID, Force Touch trackpad, 30W USB-C Power Adapter",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303665",
+      "price": "$1,199",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 3,
+      "title": "MacBook Pro",
+      "model": "13-inch",
+      "details": "8-Core CPU, 10-Core GPU, 8GB Unified Memory, 256GB SSD Storage (up to 512GB SSD Storage), 16-core Neural Engine, 13-inch Retina display with True Tone, Two Thunderbolt / USB 4 ports, Magic Keyboard, Touch Bar and Touch ID, Force Touch trackpad",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653493200207",
+      "price": "$1,299",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 4,
+      "title": "MacBook Pro",
+      "model": "14-inch",
+      "details": "8-Core CPU (up to 10-Core CPU), 14-Core GPU (up to 16-Core GPU), 16GB Unified Memory, 512GB SSD Storage (up to 1TB SSD Storage), 16-core Neural Engine, 14-inch Liquid Retina XDR display, Three Thunderbolt 4 ports, HDMI port, SDXC card slot, MagSafe 3 port, Magic Keyboard with Touch ID, Force Touch trackpad, 96W USB-C Power Adapter",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202110?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632788573000",
+      "price": "$1,999",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 5,
+      "title": "MacBook Pro",
+      "model": "16-inch",
+      "details": "10-Core CPU, 16-Core GPU (up to 32-Core GPU), 16GB Unified Memory (up to 32GB Unified Memory), 512GB SSD Storage (up to 1TB SSD Storage), 16-core Neural Engine, 16-inch Liquid Retina XDR display, Three Thunderbolt 4 ports, HDMI port, SDXC card slot, MagSafe 3 port, Magic Keyboard with Touch ID, Force Touch trackpad, 140W USB-C Power Adapter",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-silver-select-202110?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632788573000",
+      "price": "$2,499",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 6,
+      "title": "iMac",
+      "model": "24-inch",
+      "details": "8-Core CPU, 7-Core GPU (up to 8-Core GPU), 256GB Storage (up to 512GB storage), 8GB unified memory, 24-inch 4.5K Retina display, Two Thunderbolt / USB 4 ports, Two USB 3 ports, Gigabit Ethernet, Magic Keyboard with Touch ID",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-blue-selection-hero-202104?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1617492405000",
+      "price": "$1,299",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 7,
+      "title": "Mac mini",
+      "model": "M1 Chip",
+      "details": "8-core CPU, 8-core GPU, 16-core Neural Engine, 8GB unified memory, 256GB SSD storage (up to 512GB SSD storage) , Gigabit Ethernet",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-hero-202011?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1603403462000",
+      "price": "$699",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 8,
+      "title": "Mac Studio",
+      "model": "M1 Max",
+      "details": "10-Core CPU, 24-Core GPU, 16-Core Neural Engine, 32GB unified memory, 512GB SSD storage, Front: Two USB-C ports, one SDXC card slot, Back: Four Thunderbolt 4 ports, two USB-A ports, one HDMI port, one 10Gb Ethernet port, one 3.5 mm headphone jack",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-studio-select-202203?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1645739294025",
+      "price": "$1,999",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 9,
+      "title": "Mac Studio",
+      "model": "M1 Ultra",
+      "details": "20-Core CPU, 48-Core GPU, 32-Core Neural Engine, 64GB unified memory, 1TB SSD storage, Front: Two Thunderbolt 4 ports, one SDXC card slot, Back: Four Thunderbolt 4 ports, two USB-A ports, one HDMI port, one 10Gb Ethernet port, one 3.5 mm headphone jack",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-studio-select-202203?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1645739294025",
+      "price": "$3,999",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 10,
+      "title": "Mac Pro",
+      "model": "Tower",
+      "details": "3.5GHz 8-core Intel Xeon W processor (up to 2.5GHz 28-core Intel Xeon W processor), Turbo Boost up to 4.0GHz, 32GB (4x8GB) of DDR4 ECC memory (up to 1.5TB (12x128GB) of DDR4 ECC memory), Radeon Pro W5500X with 8GB of GDDR6 memory (up to Two Radeon Pro W6800X Duo with 64GB of GDDR6 memory each), 512GB SSD storage (up to 8TB SSD storage), Stainless steel frame with feet, Magic Mouse, Magic Keyboard with Numeric Keypad - US English",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-2019-gallery2?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1572644161517",
+      "price": "$5,999",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 11,
+      "title": "Mac Pro",
+      "model": "Rack",
+      "details": "3.5GH 8-core Intel Xeon W processor (up to 2.5GHz 28-core Intel Xeon W processor), Turbo Boost up to 4.0GHz, 32GB (4x8GB) of DDR4 ECC memory (up to 1.5TB (12x128GB) of DDR4 ECC memory), Radeon Pro W5500X with 8GB of GDDR6 memory (up to Two Radeon Pro W6800X Duo with 64GB of GDDR6 memory each), 512GB SSD storage (up to 8TB SSD storage), Rack mounting rails (ships in separate box), Magic Mouse, Magic Keyboard with Numeric, Keypad - US English",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-rack-2021-gallery1?wid=2000&hei=1272&fmt=jpeg&qlt=95&.v=1626378543000",
+      "price": "$6,499",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 12,
+      "title": "iPad Pro",
+      "model": "11-inch",
+      "details": "Apple M1 chip, 8-core CPU with 4 performance cores and 4 efficiency cores, 8-core GPU, 16-core Neural Engine, 8GB RAM on models with 128GB, 256GB, or 512GB storage, 16GB RAM on models with 1TB or 2TB storage",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-11-select-202104?wid=970&amp;hei=1020&amp;fmt=png-alpha&amp;.v=1617067379000",
+      "price": "$799",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 13,
+      "title": "iPad Pro",
+      "model": "12.9-inch",
+      "details": "Apple M1 chip, 8-core CPU with 4 performance cores and 4 efficiency cores, 8-core GPU, 16-core Neural Engine, 8GB RAM on models with 128GB, 256GB, or 512GB storage, 16GB RAM on models with 1TB or 2TB storage",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-202104?wid=970&amp;hei=1020&amp;fmt=png-alpha&amp;.v=1617067382000",
+      "price": "$1,099",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 14,
+      "title": "iPad Air",
+      "model": "10.9-inch",
+      "details": "Apple M1 chip, 8-core CPU, 8-core graphics, Apple Neural Engine, 8GB RAM",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-blue-202203?wid=470&hei=556&fmt=png-alpha&.v=1645065732688",
+      "price": "$599",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 15,
+      "title": "iPad",
+      "model": "10.2-inch",
+      "details": "A13 Bionic chip with 64-bit architecture, Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-2021-hero-landing-wifi?wid=450&hei=523&fmt=jpeg&qlt=95&.v=1630973863000",
+      "price": "$329",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 16,
+      "title": "iPad mini",
+      "model": "8.3-inch",
+      "details": "A15 Bionic chip with 64-bit architecture, 6-core CPU, 5-core graphics, 16-core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-space-gray-202109?wid=470&hei=556&fmt=png-alpha&.v=1629840743000",
+      "price": "$499",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 17,
+      "title": "iPhone",
+      "model": "13 Pro Max",
+      "details": "A15 Bionic chip, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346295",
+      "price": "$1,099",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 18,
+      "title": "iPhone",
+      "model": "13 Pro",
+      "details": "A15 Bionic chip, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-blue-select?wid=470&hei=556&fmt=png-alpha&.v=1645552346275",
+      "price": "$999",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 19,
+      "title": "iPhone",
+      "model": "13",
+      "details": "A15 Bionic chip, New 6-core CPU with 2 performance and 4 efficiency cores, New 4-core GPU, New 16-core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-blue-select-2021?wid=470&hei=556&fmt=png-alpha&.v=1645572386470",
+      "price": "$799",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 20,
+      "title": "iPhone",
+      "model": "13 mini",
+      "details": "A15 Bionic chip, New 6-core CPU with 2 performance and 4 efficiency cores, New 4-core GPU, New 16-core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-mini-blue-select-2021?wid=470&hei=556&fmt=png-alpha&.v=1645572315986",
+      "price": "$699",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 21,
+      "title": "Apple Watch",
+      "model": "Series 7",
+      "details": "45mm or 41mm Swimproof, Most crack-resistant front crystal, Certified IP6X dust resistant, Always-On Retina display, Nearly 20% larger than Apple Watch SE, Over 50% larger than Series 3, Blood Oxygen app, ECG app, High and low heart rate notifications, Irregular heart rhythm notification, Emergency SOS, International emergency calling, Fall detection, Cellular available, Family Setup — pair multiple watches with one iPhone",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKUQ3_VW_34FR+watch-45-alum-midnight-nc-7s_VW_34FR_WF_CO?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171067000%2C1631661671000",
+      "price": "$399",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 22,
+      "title": "Apple Watch",
+      "model": "SE",
+      "details": "44mm or 40mm Swimproof, Retina display, Over 30% larger than Series 3, High and low heart rate notifications, Irregular heart rhythm notification, Emergency SOS, International emergency calling, Fall detection, Cellular available, Family Setup — pair multiple watches with one iPhone",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKUQ3_VW_34FR+watch-44-alum-spacegray-nc-se_VW_34FR_WF_CO?wid=700&hei=700&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1632171067000%2C1630708976000",
+      "price": "$279",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 23,
+      "title": "Apple Watch",
+      "model": "Series 3",
+      "details": "42mm or 38mm Swimproof, Retina display, High and low heart rate notifications, Irregular heart rhythm notification, Emergency SOS",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-alu-space-sport-black-nc-gallery1?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1594259752000",
+      "price": "$199",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 24,
+      "title": "AirPods",
+      "model": "Pro",
+      "details": "Custom high-excursion Apple driver, Custom high dynamic range amplifier, Active Noise Cancellation, Transparency mode, Vent system for pressure equalization, Spatial audio with dynamic head tracking, Adaptive EQ",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591634795000",
+      "price": "$249",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 25,
+      "title": "AirPods",
+      "model": "Max",
+      "details": "Apple-designed dynamic driver, Active Noise Cancellation, Transparency mode, Spatial audio with dynamic head tracking, Adaptive EQ",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-spacegray-202011?wid=470&hei=556&fmt=png-alpha&.v=1604709508000",
+      "price": "$549",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 26,
+      "title": "Apple TV",
+      "model": "4K",
+      "details": "A12 Bionic chip with 64-bit architecture, HDMI 2.14, 802.11ax Wi-Fi 6 with MIMO; simultaneous dual band (2.4GHz and 5GHz), Thread, Gigabit Ethernet, Bluetooth 5.0 wireless technology, IR receiver, Built-in power supply",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-tv-4k-hero-select-202104?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1619139498000",
+      "price": "$179",
+      "heart": false,
+      "inCart": false
+    },
+    {
+      "id": 27,
+      "title": "HomePod",
+      "model": "mini",
+      "details": "Full-range driver and dual passive radiators for deep bass and crisp high frequencies, Custom acoustic waveguide for a 360º sound field, Acoustically transparent fabric, Computational audio for real-time tuning, Four-microphone design for far-field Siri, Multiroom audio with AirPlay 2, Stereo pair capable",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-mini-select-spacegray-202110_FV1?wid=934&hei=440&fmt=jpeg&qlt=95&.v=1633086020000",
+      "price": "$99",
+      "heart": false,
+      "inCart": false
     }
   ],
-  "comments" : [
+  "users": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "username": "username",
+      "password": "password",
+      "name": "name",
+      "street": "street",
+      "city": "city",
+      "state": "state",
+      "zip": "zip",
+      "email": "email",
+      "phone": "phone"
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "currentUser": ""
     }
   ]
 }
